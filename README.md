@@ -48,6 +48,15 @@
 | `Total_data_for_clustering.csv` | 광진구 클러스터링 분석을 위한 통합 데이터셋 |
 | `Gwangjingu_positive_child.zip` | 광진구 내 유아 수 격자화 |
 
+## 📁 광진구 유효유아수 (`Data/Positive_Child/`)
+
+| 파일명 | 설명 |
+|--------|------|
+| `Gwangjingu_positive_child.shp` 외 (shx, dbf, prj 포함) | 광진구 내 공간격자(또는 구역)별 유효 유아수(`val` 필드 기준)를 담은 공간 정보 데이터셋. SHP 형식이며 QGIS, ArcGIS 등에서 시각화 및 분석 가능 |
+
+> 참고: 일부 `val` 값은 비어 있으며, 유아 인구 밀도를 공간적으로 분석하는 데 활용함.
+
+
 ---
 
 📌 **참고:** 데이터 출처는 각 행정기관 또는 공공 포털에서 수집, `Data_Source.txt` 파일에 출처가 포함되었습니다.
