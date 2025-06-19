@@ -48,6 +48,8 @@
 | `Total_data_for_clustering.csv` | 광진구 클러스터링 분석을 위한 통합 데이터셋 |
 | `Gwangjingu_positive_child.zip` | 광진구 내 유아 수 격자화 |
 
+---
+
 ## 📁 광진구 유효유아수 (`Data/Positive_Child/`)
 
 | 파일명 | 설명 |
