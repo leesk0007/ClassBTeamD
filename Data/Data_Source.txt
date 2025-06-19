@@ -1,0 +1,23 @@
+소득
+https://data.seoul.go.kr/dataList/OA-22166/S/1/datasetView.do
+
+임대료
+https://golmok.seoul.go.kr/stateArea.do
+
+지하철역
+https://data.seoul.go.kr/dataList/OA-21232/S/1/datasetView.do
+
+버스정류장
+https://data.seoul.go.kr/dataList/OA-15067/S/1/datasetView.do
+
+cctv
+https://data.seoul.go.kr/dataList/OA-20928/S/1/datasetView.do
+
+어린이집 
+https://data.seoul.go.kr/dataList/OA-20305/S/1/datasetView.do
+
+출생현황
+https://jumin.mois.go.kr/etcStatBirth.do
+
+0~9세 인구수
+https://data.seoul.go.kr/dataList/10718/S/2/datasetView.do
