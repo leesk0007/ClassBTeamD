@@ -80,6 +80,20 @@
 
 ---
 
+## 📂 공간 데이터 파일 목록 (Shapefiles)
+
+| 파일명 | 설명 |
+|--------|------|
+| `all_facilities.shp` 외 (cpg, dbf, prj, shx) |  |
+| `candidate_sites.shp` 외 (cpg, dbf, prj, shx) |  |
+| `demand_points.shp` 외 (cpg, dbf, prj, shx) |  |
+| `existing_facilities.shp` 외 (cpg, dbf, prj, shx) |  |
+| `selected_facilities.shp` 외 (cpg, dbf, prj, shx) |  |
+| `service_areas.shp` 외 (cpg, dbf, prj, shx) |  |
+
+
+---
+
 📌 **참고:** 데이터 출처는 각 행정기관 또는 공공 포털에서 수집, `Data_Source.txt` 파일에 출처가 포함되었습니다.
 
 ---
