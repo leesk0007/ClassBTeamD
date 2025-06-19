@@ -46,6 +46,7 @@
 | `Gwangjingu_SeoulKidsCafe.csv` | 서울형 키즈카페의 광진구 위치 정보 |
 | `Gwangjingu_SubwayStation.csv` | 광진구 지하철역 위치 정보 |
 | `Total_data_for_clustering.csv` | 광진구 클러스터링 분석을 위한 통합 데이터셋 |
+| `Gwangjingu_positive_child.zip` | 광진구 내 유아 수 격자화 |
 
 ---
 
