@@ -15,7 +15,42 @@
   
 - kidscafes.csv
   :
-  
+
+## 📁 Data
+
+| 파일명 | 설명 |
+|--------|------|
+| `201603_202003_Seoul_BirthPopulation.csv` | 2016년 3월부터 2020년 3월까지의 서울시 출생 인구 데이터 |
+| `202004_202503_Seoul_BirthPopulation.csv` | 2020년 4월부터 2025년 3월까지의 서울시 출생 인구 데이터 |
+| `Seoul_BusStop.csv` | 서울시 버스정류장 위치 및 정보 |
+| `Seoul_CCTV.csv` | 서울시 공공 CCTV 설치 현황 |
+| `Seoul_Earnings.csv` | 서울시 지역별 평균 소득 자료 |
+| `Seoul_KinderGarten.csv` | 서울시 어린이집 위치 정보 |
+| `Seoul_Rent.csv` | 서울시 임대료 수준 정보 (상가/주거 등 가능성 있음) |
+| `Seoul_ResisterPopulation.csv` | 서울시 주민등록 인구 정보 |
+| `Seoul_SubwayStation.csv` | 서울시 지하철역 위치 및 관련 정보 |
+| `Data_Source.txt` | 데이터 출처 |
+
+---
+
+## 📁 광진구 전처리 데이터 (`/Gwangjingu_DataProcessing/`)
+
+| 파일명 | 설명 |
+|--------|------|
+| `Gwangjingu_BirthPopulation.csv` | 광진구 출생 인구 데이터 |
+| `Gwangjingu_BusStop.csv` | 광진구 버스정류장 위치 및 정보 |
+| `Gwangjingu_CCTV.csv` | 광진구 공공 CCTV 현황 |
+| `Gwangjingu_Earnings.csv` | 광진구 소득 데이터 |
+| `Gwangjingu_KinderGarten.csv` | 광진구 보육시설 (유치원, 어린이집 등) |
+| `Gwangjingu_ResisterPopulation.csv` | 광진구 주민등록 인구 정보 |
+| `Gwangjingu_SeoulKidsCafe.csv` | 서울형 키즈카페의 광진구 위치 정보 |
+| `Gwangjingu_SubwayStation.csv` | 광진구 지하철역 위치 정보 |
+| `Total_data_for_clustering.csv` | 광진구 클러스터링 분석을 위한 통합 데이터셋 |
+
+---
+
+📌 **참고:** 데이터 출처는 각 행정기관 또는 공공 포털에서 수집되었으며, `Data_Source.txt` 파일에 상세 설명이 포함되어 있습니다.
+
 ---
 ### ✔️ 가상환경 설정 (수업시간에 진행한 tfenv 환경 사용)
 - python 3.10 버전 기반 환경 설치
