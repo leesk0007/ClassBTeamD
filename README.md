@@ -3,11 +3,11 @@
 ## 가상환경 설정 (수업시간에 진행한 tfenv 환경 사용)
 - python 3.10 버전 기반 환경 설치
 
-  conda create -n tfenv python=3.10
+  """conda create -n tfenv python=3.10"""
 
 - 환경 활성화
 
-  conda activate tfenv
+  """conda activate tfenv""""
 
 - tensorflow 설치
 
