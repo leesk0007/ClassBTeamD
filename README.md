@@ -84,12 +84,12 @@
 
 | 파일명 | 설명 |
 |--------|------|
-| `all_facilities.shp` 외 (cpg, dbf, prj, shx) |  |
-| `candidate_sites.shp` 외 (cpg, dbf, prj, shx) |  |
-| `demand_points.shp` 외 (cpg, dbf, prj, shx) |  |
-| `existing_facilities.shp` 외 (cpg, dbf, prj, shx) |  |
-| `selected_facilities.shp` 외 (cpg, dbf, prj, shx) |  |
-| `service_areas.shp` 외 (cpg, dbf, prj, shx) |  |
+| `all_facilities.shp` 외 (cpg, dbf, prj, shx) | 기존 서울형 키즈카페 위치 및 새로 도출해낸 키즈카페 위치 |
+| `candidate_sites.shp` 외 (cpg, dbf, prj, shx) | 대중교통 접근성 점수 기반으로 선택된 위치 |
+| `demand_points.shp` 외 (cpg, dbf, prj, shx) | 유효 유아수를 기반으로 선택된 위치 |
+| `existing_facilities.shp` 외 (cpg, dbf, prj, shx) | 기존 서울형 키즈카페 위치 |
+| `selected_facilities.shp` 외 (cpg, dbf, prj, shx) | 새로 도출해낸 서울형 키즈카페 위치 |
+| `service_areas.shp` 외 (cpg, dbf, prj, shx) | 기존 서울형 키즈카페와 새로 도출해낸 키즈카페 700m 반경 |
 
 
 ---
