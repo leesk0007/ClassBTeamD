@@ -16,7 +16,7 @@
 - kidscafes.csv
   :
 
-## 📁 서울시 공공데이터 (/Data/)
+## 📁 서울시 공공데이터 ('/Data/')
 
 | 파일명 | 설명 |
 |--------|------|
@@ -33,7 +33,7 @@
 
 ---
 
-## 📁 광진구 전처리 데이터 (`/Gwangjingu_DataProcessing/`)
+## 📁 광진구 전처리 데이터 (`Data/Gwangjingu_DataProcessing/`)
 
 | 파일명 | 설명 |
 |--------|------|
