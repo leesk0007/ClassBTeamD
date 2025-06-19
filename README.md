@@ -1,6 +1,21 @@
 # 광진구 내 서울형 키즈카페 입지 선정
 ---
 ### ✔️ 파일 설명
+- Clustering_result.ipynb
+  :
+  
+- MCLP_result.ipynb
+  :
+  
+- data_for_clustering.csv
+  :
+  
+- candidate_data.csv
+  :
+  
+- kidscafes.csv
+  :
+  
 ---
 ### ✔️ 가상환경 설정 (수업시간에 진행한 tfenv 환경 사용)
 - python 3.10 버전 기반 환경 설치
