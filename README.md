@@ -1,20 +1,40 @@
 # 광진구 내 서울형 키즈카페 입지 선정
 ---
 ### ✔️ 파일 설명
-- Clustering_result.ipynb
-  :
-  
-- MCLP_result.ipynb
-  :
-  
-- data_for_clustering.csv
-  :
-  
-- candidate_data.csv
-  :
-  
-- kidscafes.csv
-  :
+# 프로젝트 파일 설명: 서울형 키즈카페 입지 분석
+
+서울 광진구 내 서울형 키즈카페의 입지를 분석하고 최적화하기 위한 두 가지 주요 분석 방법론을 포함: **군집화 기반 비교 분석**, **최대커버리지 입지모형(MCLP)**.
+
+---
+
+# 📁 주요 코드 파일
+
+- **Clustering_Final.ipynb**  
+  → `data_for_clustering.csv`를 기반으로 군집화 알고리즘(KMeans, GMM, DBSCAN 등)을 비교하여 유사한 지역군을 도출하는 코드입니다. PCA 시각화, silhouette score 등을 포함하여 군집화 모델 간 성능을 비교합니다.
+
+- **MCLP_result.ipynb**  
+  → `candidate_data.csv`, `demand_data.csv`, `kidscafes.csv`를 이용해 최대 커버리지 입지모형(Maximum Coverage Location Problem, MCLP)을 적용하여 최적 입지 후보지를 도출하는 분석 코드입니다.
+
+---
+
+# 📂 데이터 파일 설명
+
+- **data_for_clustering.csv**  
+  → 군집화 분석에 사용되는 행정동 단위의 속성 데이터. 주요 변수로 수요층(0~9세, 출생현황), 경제성(가구평균소득, 월평균임대료), 안전성(CCTV, 어린이집), 접근성(지하철역, 버스정류소) 포함합니다.
+
+- **candidate_data.csv**  
+  → 입지 후보지로 선정된 격자별 중심 좌표 데이터. 각 후보지는 교통 접근성 점수를 기준으로 사전 필터링된 위치입니다.
+
+- **demand_data.csv**  
+  → 수요지로 사용되는 유아 인구 밀집 지역의 좌표 데이터. 각 좌표는 높은 유아 인구수를 기반으로 선정하였습니다.
+
+- **kidscafes.csv**  
+  → 현재 광진구 내에 존재하는 서울형 키즈카페 위치 데이터. 입지 중복 방지를 위해 기존 시설과의 거리 제한 조건에 사용합니다.
+
+---
+
+> 본 프로젝트는 서울시 공공 보육정책의 효율적 공간 배치를 위한 데이터 기반 접근을 목표로 합니다.
+
 
 ## 📁 서울시 공공데이터 (`/Data/`)
 
