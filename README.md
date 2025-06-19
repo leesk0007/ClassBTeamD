@@ -22,4 +22,8 @@
 - 기본 패키지 설치
 
   pip install matplotlib scikit-learn gensim nltk pandas
+---
 
+### ✔️ 기타
+
+꾸미팡팡 놀이터 1호점, 2호점은 같은 건물(서울특별시 광진구 능동로 87 3층)에 입점하고 있기에 기존 시설의 개수는 4개로 처리함
